@@ -18,13 +18,13 @@ body {
 
 .header {
   
-  position: sticky; /* Fija la posición del header */
-  top: 0; /* Posiciona el header en la parte superior de la página */
-  width: 100%; /* Asegura que el header ocupe todo el ancho de la página */
-  z-index: 1000; /* Asegura que el header se superponga a otros elementos */
-  background-color: #47464683; /* Mantén el fondo del header */
-  color: rgb(26, 25, 25); /* Color del texto */
-  padding: 20px 0; /* Padding para el contenido del header */
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  background-color: #47464683; 
+  color: rgb(26, 25, 25); 
+  padding: 20px 0; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   background-color: #ece5e5;
   color: rgb(26, 25, 25);
@@ -123,10 +123,10 @@ body {
 }
 
 .carousel-slide img {
-    width: 1500px;  /* Puedes ajustar esto a un valor fijo si lo prefieres, como 600px */
-    height: 500px; /* Puedes ajustar esto a un valor fijo si lo prefieres, como 400px */
-    max-width: 100%; /* Asegúrate de que las imágenes no se desborden */
-    max-height: 400px; /* Establece una altura máxima para las imágenes */
+    width: 1500px;
+    height: 500px; 
+    max-width: 100%; 
+    max-height: 400px; 
     object-fit: cover; 
   
 }
@@ -177,37 +177,37 @@ body {
 }
 .image-text-container {
   display: flex;
-  align-items: center; /* Alinea verticalmente la imagen y el texto */
+  align-items: center; 
   margin-bottom: 20px;
 }
 
 .image {
-  width: 60%; /* Ajusta el tamaño de la imagen */
-  height: auto; /* Mantiene la proporción de la imagen */
-  margin-right: 20px; /* Espacio entre la imagen y el texto */
-  border-radius: 8px; /* Opcional: Redondea las esquinas de la imagen */
+  width: 60%; 
+  height: auto; 
+  margin-right: 20px;
+  border-radius: 8px; 
 }
 
 .text {
-  width: 50%; /* Ajusta el ancho del texto */
+  width: 50%;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
   .image-text-container {
-      flex-direction: column; /* Cambia a columna en pantallas pequeñas */
-      text-align: center; /* Centra el texto */
+      flex-direction: column; 
+      text-align: center; 
   }
   
   .image {
     position: sticky;
-      width: 100%; /* La imagen toma el ancho completo */
-      margin-right: 0; /* Sin margen en pantallas pequeñas */
-      margin-bottom: 20px; /* Espacio debajo de la imagen */
+      width: 100%; 
+      margin-right: 0;
+      margin-bottom: 20px; 
   }
   
   .text {
-      width: 100%; /* El texto toma el ancho completo */
+      width: 100%; 
   }
 }
 .ubicacion {
